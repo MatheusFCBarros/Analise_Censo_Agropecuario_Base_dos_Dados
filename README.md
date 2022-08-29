@@ -4,8 +4,8 @@ Projeto de estudos de analise de dados usando uma base do Censo Agropecuário do
 
 Nesse projeto eu realizei etapas como:
 
-Importação das biliotecas e pacotes necessários
-
+#### Importação das biliotecas e pacotes necessários
+#### Criação de funções para otimização
 ## Base escolhida
 
 Usei a base Censo Agropecuário (br_ibge_censo_agropecuario) para realizar as análises e realizei um cruzamento com a base 
