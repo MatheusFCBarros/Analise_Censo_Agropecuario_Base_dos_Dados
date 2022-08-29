@@ -4,8 +4,19 @@ Projeto de estudos de analise de dados usando uma base do Censo Agropecuário do
 
 Nesse projeto eu realizei etapas como:
 
-#### Importação das biliotecas e pacotes necessários
-#### Criação de funções para otimização
+Importação das biliotecas e pacotes necessárias:
+1.    pandas
+2.    numpy
+3.    basedosdados
+4.    matplotlib.pyplot
+5.    plotly
+6.    plotly.express
+7.    plotly.graph_objects
+
+Tratamento dos dados 
+
+Criação da visualização
+
 ## Base escolhida
 
 Usei a base Censo Agropecuário (br_ibge_censo_agropecuario) para realizar as análises e realizei um cruzamento com a base 
