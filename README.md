@@ -1,5 +1,6 @@
-Oi# Analise_Censo_Agropecuario_Base_dos_Dados
- Projeto de estudos de analise de dados usando uma base do Censo Agropecuário do Brasil
+# Analise_Censo_Agropecuario_Base_dos_Dados
+
+Projeto de estudos de analise de dados usando uma base do Censo Agropecuário do Brasil
 
 Nesse projeto eu realizei etapas como:
 
@@ -13,16 +14,6 @@ Usei a base Censo Agropecuário (br_ibge_censo_agropecuario) para realizar as an
 ## Forma de download dos dados
 
 Usei o read_sql para fazer o download da base
-
-base_censo1 = bd.read_sql(
-    '''
-    SELECT censo.*, municipio.nome
-        FROM basedosdados.br_ibge_censo_agropecuario.municipio AS censo 
-        INNER JOIN basedosdados.br_bd_diretorios_brasil.municipio AS municipio
-            ON censo.id_municipio = municipio.id_municipio
-    ''',
-    billing_project_id='teste1-360117'
-)
 
 ## Tratamento e visualização
 
